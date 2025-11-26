@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    1. THE SPLASH SCREEN THEME
+    This theme is ONLY for the splash screen.
+    - Its parent MUST be Theme.SplashScreen or a descendant.
+    - postSplashScreenTheme tells the system which theme to use AFTER the splash.
+    - windowSplashScreenAnimatedIcon sets your app's icon in the center.
+    -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- The theme to apply after the splash screen is dismissed. -->
+        <item name="postSplashScreenTheme">@style/Theme.ComposeApp</item>
+
+        <!-- The icon to display on the splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_voice_chat_24</item>
+
+        <!-- Optional: Set the background color of the splash screen -->
+        <item name="windowSplashScreenBackground">@color/background_dark</item>
+
+        <!-- Optional: Set the color of the status bar and navigation bar during the splash -->
+        <item name="android:statusBarColor">@color/background_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+    </style>
+
+    <!--
+    2. YOUR MAIN APPLICATION THEME
+    This is the regular theme for your entire application after the splash screen.
+    -->
+    <style name="Theme.ComposeApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/background_dark</item>
+    </style>
+
+</resources>

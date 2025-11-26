@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ComposeApp</string>
+    <string name="title_activity_chat_list">ChatListActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_record_voice">RecordVoiceActivity</string>
+    <!-- ▼▼▼ ADD THESE NEW STRINGS ▼▼▼ -->
+    <string name="summarize_chats">Summarize Chats</string>
+    <string name="chat_summary">Chat Summary</string>
+    <string name="summarizing">Summarizing…</string>
+    <string name="close">Close</string>
+    <!-- ▲▲▲▲▲ END OF NEW STRINGS ▲▲▲▲▲ -->
+</resources>
